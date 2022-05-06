@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+/* Tag */
+html, body{
+    /* margin: 0 auto; */
+    /* max-width: 1280px; */
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Class */
+.content{
+    /* margin: 5px; */
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.container{
+    margin: 5px 15px;
+    /* border: 1px solid orange; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 34rem;
+}
+
+.container .celular{
+    max-width: 100%;
+    max-height: 45rem;
+    /* padding: 20px 0; */
+    /* max-height: 750px; */
+}
+
+.item{
+    margin: 5px;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.group{
+    min-height: 19rem;
+}
+
+.white{
+    background-color: #fff;
+    border: 1px solid lightgray;
+    padding: 1.3rem 0;
+}
+
+.item .perfil{
+    padding: 5px;
+    border-radius: 50%;
+    max-width: 60%;
+    margin: 10px 0;
+}
+
+.item .logo{
+    max-width: 95%;
+    max-height: 3rem;
+}
+
+.login{
+    background-color: #0095f6;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.logout{
+    color: #0095f6;
+    margin-top: 1rem;
+}
+
+.not-account{
+    color: rgb(160, 160, 160);
+}
+
+.link-blue{
+    color: #0095f6;
+}
+
+.get-app{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+    font-weight: bold;
+}
+
+.app-download{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.download{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.download img{
+    padding: 5px;
+    width: 100%;
+}
+
+/* Media Queries */
+@media (max-width: 650px) {
+    html, body{
+        background-color: #fff;
+    }
+
+    .none{
+        display: none;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .white{
+        border: transparent;
+    }
+}
